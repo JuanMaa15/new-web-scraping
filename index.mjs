@@ -73,7 +73,7 @@ const scraping = async (item, res) => {
     // );
 
     // Cerrar el navegador
-    
+    //HPTA
     // Enviar ambos resultados juntos como un objeto
     await browser.close();
     res.send({ mercadoLibre: products});
